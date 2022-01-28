@@ -1,0 +1,28 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success
+{
+    background-color: darkorchid;
+}
+canvas {
+animation-name : example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+
+    from{box-shadow: 1px 1px 38px rgb(101, 7, 145);}
+    to{box-shadow: 1px 1px 38px rgb(101, 7, 145); }
+}
+.btn-warning
+{
+    height: max-content;
+    width: max-content;
+}
+h4
+{
+    font-size: large;
+    font-weight: bolder;
+}
